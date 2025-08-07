@@ -7,17 +7,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Teacher's Marketplace</h1>
-    <div id="items-container"></div>
-    <hr>
-    <h2>Add a new item</h2>
-    <form id="add-item-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" required>
-        <label for="description">Description:</label>
-        <input type="text" id="description" required>
-        <button type="submit">Add Item</button>
-    </form>
+    <header>
+        <div class="container">
+            <h1>Teacher's Marketplace</h1>
+            <input type="text" id="search-bar" placeholder="Search for items...">
+        </div>
+    </header>
+    <main class="container">
+        <div id="items-container"></div>
+    </main>
+    <div class="container">
+        <hr>
+        <h2>Add a new item</h2>
+        <form id="add-item-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="description">Description:</label>
+            <input type="text" id="description" required>
+            <button type="submit">Add Item</button>
+        </form>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
